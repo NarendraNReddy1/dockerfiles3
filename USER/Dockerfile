@@ -1,3 +1,3 @@
 FROM almalinux:9
-RUN dnfinstallnginx-y
+RUN dnf install nginx -y
 CMD ["sleep","100"]
